@@ -1,0 +1,127 @@
+/* Reset Básico */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+ .header {
+    background-color: #080d11;
+    color: #ecf0f1;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.nav-menu a {
+    color: #ecf0f1;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.nav-menu a:hover {
+    color: #bdc3c7;
+}
+
+/* Banner */
+.banner {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* Seção de Estoque */
+.estoque-section {
+    padding: 2rem;
+    text-align: center;
+}
+
+.estoque-section h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    width: 300px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+}
+
+.card h3 {
+    font-size: 1.25rem;
+    margin: 0.5rem 0;
+}
+
+.car-details, .car-price {
+    margin: 0.25rem 0;
+}
+
+.car-price {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-top: 1rem;
+}
+
+.btn-details {
+    display: inline-block;
+    background-color: #3498db;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 1.5rem;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    box-sizing: border-box; /* Garante que o padding não afete a largura */
+}
+
+.btn-details:hover {
+    background-color: #2980b9;
+}
+
+/* Footer */
+.footer {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.8rem;
+}
